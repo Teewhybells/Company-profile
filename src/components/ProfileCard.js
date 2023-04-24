@@ -5,6 +5,7 @@ const ProfileCard = (props) => {
     <div className='profile-card'>
         <img src={props.profile.picture} />
         <div>
+        <div></div>
             <div>{props.profile.id}</div>
             <div>{props.profile.title} {props.profile.firstName} {props.profile.lastName} </div>
         </div>
